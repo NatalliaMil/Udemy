@@ -1,0 +1,19 @@
+$text_color: aqua
+@mixin box
+    display: block
+    margin: 0 auto
+    width: 250px
+    height: 150px
+    background-color: blue
+h1
+    color: $text_color
+    font-size: 40px
+h2
+    color: red
+.block
+    background-color: red
+
+    &_color
+        background-color: #fff
+        button
+            @include box
